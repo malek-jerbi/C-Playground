@@ -19,7 +19,7 @@ int main() {
     assert(bitcount(0xff) == 8);
 
     assert(bitcount(0xffffffff) == 32);
-
+    assert(bitcount(bit(0x61)));
     printf("OK\n");
 
 
