@@ -150,6 +150,7 @@ int main() {
   assert(Hashmap_get(h, "item a") == NULL);
 
   printf("here : GOOD");
+  printf("make test cases pass after this point / look at oz's implementation");
 
   // handle collisions correctly
   // note: this doesn't necessarily test expansion
